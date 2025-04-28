@@ -1,0 +1,12 @@
+Source: ros-humble-turtlebot3-autorace
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-humble-turtlebot3-autorace
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-turtlebot3-autorace-camera, ros-humble-turtlebot3-autorace-detect, ros-humble-turtlebot3-autorace-mission, ros-humble-ros-workspace
+Description: ROS 2 meta packages for turtlebot3_autorace

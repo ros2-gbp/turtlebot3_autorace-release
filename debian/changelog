@@ -1,0 +1,45 @@
+ros-humble-turtlebot3-autorace (1.2.2-1jammy) jammy; urgency=high
+
+  * Fixed incorrect entries in package.xml
+  * Contributors: Hyungyu Kim
+
+ -- Pyo <pyo@robotis.com>  Wed, 23 Apr 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-autorace (1.2.1-1jammy) jammy; urgency=high
+
+  * Support for ROS 2 Humble version
+  * Renewal of package structure and functionality
+  * New update for the construction mission algorithm
+  * Contributors: ChanHyeong Lee, Hyungyu Kim, Jun
+
+ -- Pyo <pyo@robotis.com>  Tue, 25 Feb 2025 15:00:00 -0000
+
+ros-humble-turtlebot3-autorace (1.2.0-1jammy) jammy; urgency=high
+
+  * modified for gazebo mode
+  * added node_mission
+  * added travis for ROS Melodic version
+  * updated the CHANGELOG and version to release binary packages
+  * Contributors: Gilbert, Pyo
+
+ -- Pyo <pyo@robotis.com>  Wed, 06 Feb 2019 15:00:00 -0000
+
+ros-humble-turtlebot3-autorace (1.1.0-1jammy) jammy; urgency=high
+
+  * modified system configuration related with the .py extensions & core launch launches
+  * merged pull request #4 <https://github.com/ROBOTIS-GIT/turtlebot3_autorace/issues/4> #3 <https://github.com/ROBOTIS-GIT/turtlebot3_autorace/issues/3> #2 <https://github.com/ROBOTIS-GIT/turtlebot3_autorace/issues/2>
+  * Contributors: Leon Jung, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 29 May 2018 15:00:00 -0000
+
+ros-humble-turtlebot3-autorace (1.0.0-1jammy) jammy; urgency=high
+
+  * refactoring to release
+  * updated control_parking.py
+  * fixed the dependencies
+  * first upload of turtlebot3_autorace
+  * Contributors: Leon Jung, Pyo
+
+ -- Pyo <pyo@robotis.com>  Mon, 19 Mar 2018 15:00:00 -0000
+
+
