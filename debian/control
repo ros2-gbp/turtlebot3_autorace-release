@@ -1,0 +1,12 @@
+Source: ros-rolling-turtlebot3-autorace-mission
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-rclpy, ros-rolling-sensor-msgs, ros-rolling-std-msgs, ros-rolling-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-rolling-turtlebot3-autorace-mission
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-rolling-rclpy, ros-rolling-sensor-msgs, ros-rolling-std-msgs, ros-rolling-ros-workspace
+Description: ROS 2 packages for turtlebot3_autorace_mission
