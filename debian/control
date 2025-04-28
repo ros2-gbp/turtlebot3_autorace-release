@@ -1,0 +1,12 @@
+Source: ros-jazzy-turtlebot3-autorace-camera
+Section: misc
+Priority: optional
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-cv-bridge, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://turtlebot3.robotis.com
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-turtlebot3-autorace-camera
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-jazzy-cv-bridge, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: ROS 2 packages for camera calibration and image processing in TurtleBot AutoRace
