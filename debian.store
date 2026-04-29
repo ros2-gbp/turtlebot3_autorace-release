@@ -1,1 +1,1 @@
-{"base": "762951886851", "parent": "debian/rolling/turtlebot3_autorace_camera", "previous": "de87fa3ad574", "trim": "", "trimbase": ""}
+{"base": "a6d646c93005", "parent": "debian/lyrical/turtlebot3_autorace_camera", "previous": "9cb8293772ee", "trim": "", "trimbase": ""}
